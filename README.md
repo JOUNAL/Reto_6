@@ -418,8 +418,10 @@ print("El area del triangulo es de:" + str(triangulo1.compute_area()))
 print("El area del rectangulo es de:" + str(rectangulo1.compute_area()))
 print("El perimetro del rectangulo es de:" + str(rectangulo1.compute_perimeter()))
 ```
+
 Codigo Shapies:
-```
+
+```python
 import math
 
 class Shape:
@@ -463,7 +465,8 @@ class Shape:
 ```
 
 Codigo Squaris:
-```
+
+```python
 from packages.shapies import Shape
 import math
 
@@ -489,7 +492,8 @@ class Square(Rectangle):
 ```
 
 Codigo Triangis:
-```
+
+```python
 from packages.shapies import Shape
 import math
     
